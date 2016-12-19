@@ -37,7 +37,7 @@ public class Mapp {
 
 		if (args == null || args.length < 8) {
 
-			logger.error("args length less than 8. input: app_id server_id jar_id deal_user port");
+			logger.error("args length less than 8. input: app_id server_id jar_id deal_user port...");
 
 			System.exit(0);
 
@@ -69,7 +69,7 @@ public class Mapp {
 		} catch (ParseException e2) {
 			e2.printStackTrace();
 		}
-		
+
 		int port = Integer.valueOf(args[4]);
 
 		try {
@@ -280,5 +280,6 @@ public class Mapp {
  */
 
 /**
- * 1 1 1 1 44444 http://192.168.129.152:8083/monitor/jdbc/queryForList.do http://192.168.129.152:8083/monitor/jdbc/execute.do 20160503000000
+ * 1 1 1 1 44444 http://192.168.129.152:8083/monitor/jdbc/queryForList.do
+ * http://192.168.129.152:8083/monitor/jdbc/execute.do 20160503000000
  */
