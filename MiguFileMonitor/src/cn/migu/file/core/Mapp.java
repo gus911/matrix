@@ -37,7 +37,7 @@ public class Mapp {
 
 		if (args == null || args.length < 8) {
 
-			logger.error("args length less than 8. input: app_id server_id jar_id deal_user port...");
+			logger.error("args length less than 8. input: app_id server_id jar_id deal_user port.");
 
 			System.exit(0);
 
